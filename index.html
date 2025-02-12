@@ -6,18 +6,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Projet 8: Wedding</title>
+    <style type="text/tailwindcss">
+      @theme {
+         --montaga:"Montaga";
+         --color1:"#C6754D";
+         --color2:"#2B1105";
+         --playfair:"Playfair";
+        }
+      </style>
 </head>
-<body class="font-Montaga" ,serif>
+<div class="font-Montaga " ,serif>
  <!-- ------------------header---------------- -->
-  <header class="flex justify-center items-center ">
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
+  <header class="flex justify-center items-center mx-30 my-2  gap-27">
+    <a class="text-warmGray-900 text-lg font-[playfair] font-normal" href="#">Home</a>
+    <a class="text-warmGray-900 text-lg font-[playfair] font-normal" href="#">Our Story</a>
+    <a class="text-warmGray-900 text-lg font-[playfair] font-normal" href="#">Venue</a>
+    <img src="./assets/img/Logo.svg" alt="">
+    <a class="text-warmGray-900 text-lg font-[playfair] font-normal" href="#">Itinierary</a>
+    <a class="text-warmGray-900 text-lg font-[playfair] font-normal" href="#">Registry</a>
+    <a class="text-warmGray-900 text-lg font-[playfair] font-normal" href="#">RSVP</a>
   </header>
+  <div class="flex flex-col justify-center items-center my-15 font-[playfair]  ">
+    <p class=" text-lg text-orange-500">Please join us to celebrate</p>
+    <h2 class="text-8xl font-[playfair]">Caleb & Amaya</h2>
+    <p class="flex text-lg flex-row gap-4 text-orange-500">July 15, 2022 -  Boise, Idaho</p>
+
+  </div>
+  <div class="flex justify-center items-center">
+    <img src="./assets/img/home img.svg" alt="">
+  </div>
+  <div class=" flex mt-9  font-[playfair] bg-orange-500  py-16 px-28">
+    <p class="flex-1 text-8xl  items-center py-20">Our <br>story </p>
+    <p class="flex-3   flex-col text-xl px-49">
+      Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit elit. Maecenas pellentesque sit eros vitae. Maecenas suspendisse tincidunt ullamcorper justo neque quis et, laoreet. <br>
+      <br>
+      Vitae lacus, aliquet lorem mauris, sit dolor sodales. Nullam quam quis lorem dui tristique massa enim. Faucibus sed egestas mollis vivamus et sed sed. <br>
+      <br>
+      Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit elit. 
+    </p>
+  </div>
+  <div class="w-full  justify-center items-center"><img src="./assets/img/img home 2.svg" alt=""></div>
+  <div class="flex gap-14 mx-19 ">
+    <!-- text div -->
+    <div class="flex-1 pl-30 flex-row">
+      <p class=" text-[color2]  my-5 text-lg font-[playfair]">The venue</p>
+      <p class="font-[playfair] text-6xl">Gino Winery Estate</p>
+      <p class="font-[playfair] text-[color2] my-5 ">Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius.</p>
+      <p class="text-lg text-[color2] ">4750 Tyler Avenue, <br> Idaho 83705</p>
+
+    </div>
+    <!-- div img -->
+     <div class=" flex-1 bg-orange-500 bg-[url('./assets/img/G img2.svg')]">
+      <img src="./assets/img/G img1.svg" alt="">
+      <img src="./assets/img/G img2.svg" alt="">
+      <img src="./assets/img/G img3.svg" alt="">
+     </div>
+    </div>
 </body>
 </html>
